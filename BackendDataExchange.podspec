@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BackendDataExchange"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "BackendDataExchange is used to exchange data with backend system, validating data on the wire before using it in UI"
   s.requires_arc = true
 
