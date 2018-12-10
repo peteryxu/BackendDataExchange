@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BackendDataExchange"
   s.version      = "0.1.0"
-  s.summary      = "A short description of BackendDataExchange."
+  s.summary      = "BackendDataExchange is used to exchange data with backend system, validating data on the wire before using it in UI"
   s.requires_arc = true
 
   # This description is used to generate tags and improve search results.
@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  # s.description  = "http backend, loopback API"
 
   s.homepage     = "https://github.com/peteryxu/BackendDataExchange"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -107,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "BackendDataExchange"
-  s.resources = "BackendDataExchange/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  # s.resources = "BackendDataExchange/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

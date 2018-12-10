@@ -48,8 +48,8 @@ public class FilePlistXMLManager {
              * After that, decode your data by specifying the type of your data. Please note that we had created an array of keys and hence the type will be array of MyKey, i.e [MyKey].self
              * Bingo!
              */
-            let plistDecoder = PropertyListDecoder()
-            let data = try Data.init(contentsOf: plistURL)
+           // let plistDecoder = PropertyListDecoder()
+           // let data = try Data.init(contentsOf: plistURL)
             //let value = try plistDecoder.decode([MyKey].self, from: data)
             
         } catch {print(error)}

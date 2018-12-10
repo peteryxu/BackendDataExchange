@@ -40,9 +40,9 @@ public class FileStorageManager {
             
             //reading
             do {
-                let text2 = try String(contentsOf: fileURL, encoding: .utf8)
+                //let text2 = try String(contentsOf: fileURL, encoding: .utf8)
             }
-            catch {/* error handling here */}
+           // catch {/* error handling here */}
         }
     
     }
@@ -66,9 +66,9 @@ public class FileStorageManager {
             
             //reading
             do {
-                let text2 = try String(contentsOf: fileURL, encoding: .utf8)
+               // let text2 = try String(contentsOf: fileURL, encoding: .utf8)
             }
-            catch {/* error handling here */}
+           // catch {/* error handling here */}
         }
         
     }
@@ -96,7 +96,7 @@ public class FileStorageManager {
             let imagePath = (getDocumentsDirectory() as NSURL).appendingPathComponent("picked\(i).jpg")
             let urlString: String = imagePath!.absoluteString
             if fileManager.fileExists(atPath: urlString) {
-                let image = UIImage(contentsOfFile: urlString)
+                //let image = UIImage(contentsOfFile: urlString)
                 //imageArray.append(image!)
             } else {
                 // print("No Image")

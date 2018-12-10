@@ -38,7 +38,6 @@
 		8588AE4C21BE1739008DFB50 /* Encode-peristence-http.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Encode-peristence-http.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8588AE4D21BE1739008DFB50 /* MyMarkUp.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyMarkUp.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8588AE4E21BE1739008DFB50 /* MyAPI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyAPI.playground; sourceTree = "<group>"; };
-		8588AE4F21BE1739008DFB50 /* MyBLE.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyBLE.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		858B48C621BE0C3300127DD7 /* BackendDataExchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BackendDataExchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B48C921BE0C3300127DD7 /* BackendDataExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackendDataExchange.h; sourceTree = "<group>"; };
 		858B48CA21BE0C3300127DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +110,6 @@
 				8588AE4C21BE1739008DFB50 /* Encode-peristence-http.playground */,
 				8588AE4D21BE1739008DFB50 /* MyMarkUp.playground */,
 				8588AE4E21BE1739008DFB50 /* MyAPI.playground */,
-				8588AE4F21BE1739008DFB50 /* MyBLE.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
